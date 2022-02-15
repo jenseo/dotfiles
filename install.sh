@@ -6,9 +6,9 @@ DOTFILES_DIR=~/dotfiles # dotfiles directory
 
 # Symlinks
 
-ln -sfv "$DOTFILES_DIR/zsh/zshrc" "~/.zshrc"
-ln -sfv "$DOTFILES_DIR/git/gitconfig" "~/.gitconfig"
-ln -sfv "$DOTFILES_DIR/git/gitignore_global" "~/.gitignore_global"
+ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
+ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
+ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
 
 
 # NVM pre setup 
