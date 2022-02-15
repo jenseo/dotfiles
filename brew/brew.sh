@@ -13,7 +13,6 @@ brew upgrade
 # Install packages
 
 apps=(
-    nvm
     grep
     wget
 )

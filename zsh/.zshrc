@@ -5,13 +5,9 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="spaceship"
 
-plugins=(zsh-nvm git copydir dirhistory jsontools history zsh-syntax-highlighting zsh-autosuggestions bgnotify)
+plugins=(zsh-nvm git copydir dirhistory jsontools history zsh-autosuggestions bgnotify zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-
-if [ -d "$HOME/telia-terminal" ] 
-  source ~/telia-terminal/.telia_terminal
-fi
 
 # Scripts path
 PATH=$PATH:$HOME/dotfiles/bin 
