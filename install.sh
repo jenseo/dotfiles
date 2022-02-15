@@ -24,7 +24,7 @@ install_zsh () {
 # Test to see if zshell is installed.  If it is:
 if [ -f /bin/zsh -o -f /usr/bin/zsh ]; then
     # Clone my oh-my-zsh repository from GitHub only if it isn't already present
-    if [[ ! -d $DOTFILES_DIR/oh-my-zsh/ ]]; then
+    if [[ ! -d ~/oh-my-zsh/ ]]; then
         sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     fi
     # Set the default shell to zsh if it isn't currently set to zsh
