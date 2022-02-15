@@ -11,9 +11,11 @@ When my workflow changes, it's easy to tweak the config and adjust the setup scr
 
 ## How to use it:
 Clone this repository, step into the folder and run the install script from your terminal:
-´./install.sh`
+
+`./install.sh`
 
 If you get an error about the file not being executable, make sure you chmod the file:
+
 `chmod +x install.sh`
 
 ### Things me, myself and I have to remember post install:
