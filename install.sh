@@ -59,5 +59,5 @@ defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/dotfiles
 defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
 }
 
-install_zsh
 setupIterm2
+install_zsh
