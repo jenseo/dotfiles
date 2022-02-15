@@ -1,7 +1,9 @@
 # My dotfiles config
 This dotfile repo is intended to make it easier (*for me*) to set up a new Mac for frontend development and get started as quickly as possible.
 
-When my workflow changes, it's easy to tweak the config and adjust the setup scripts to 
+When my workflow changes, it's easy to tweak the config and adjust the setup scripts to reflect this.
+
+This installation is the backbone of my setup and makes it easy to be up and running in no time. I don't install all the tools I *might* need in the future, instead I try to keep it slimmed down to the tools I know I want to have from day one.
 
 ## What it currently does (TL/DR):
 * Installs the applications I use mostly in my day to day work (listed below)
