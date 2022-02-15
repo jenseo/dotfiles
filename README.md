@@ -20,6 +20,7 @@ When my workflow changes, it's easy to tweak the config and adjust the setup scr
 	* slack
 * Installs [Oh My Zsh](https://ohmyz.sh/), downloads [my favorite theme](https://github.com/spaceship-prompt/spaceship-prompt) as well as some useful plugins.
 * Makes sure iterm2 loads and saves it's settings from and to this dotfile repo.
+* NVM ready for action.
 
 ## How to use it:
 Clone this repository, step into the folder and run the install script from your terminal:
