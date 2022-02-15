@@ -1,0 +1,16 @@
+[user]
+	name = Jens Filipsson
+	email = jensfilipsson@gmail.com
+[core]
+	editor = code --new-window --wait
+	excludesfile = ~/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[pull]
+	ff = only
+	rebase = true
+[rebase]
+	autoStash = true
+[fetch]
+	prune = false
