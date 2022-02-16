@@ -1,11 +1,10 @@
 # Install cask packages if they are missing
 
 brew_install_cask() {
-    echo "Installing $app"
-    if ! brew info $app >/dev/null; then
-        brew install --cask $app && echo "$app is installed"
-    else
+    if brew ls --casks --versions $app &>/dev/null; then
         echo "${app} is already installed"
+    else
+        brew install --cask $app && echo "$app is installed"
     fi
 }
 
@@ -15,6 +14,7 @@ apps=(
     iterm2
     visual-studio-code
     slack
+    mockoon
 )
 
 for app in "${apps[@]}"

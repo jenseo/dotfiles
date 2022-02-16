@@ -20,6 +20,7 @@ This installation is the backbone of my setup and makes it easy to be up and run
 	* iterm2
 	* visual-studio-code
 	* slack
+	* mockoon
 * Installs [Oh My Zsh](https://ohmyz.sh/), downloads [my favorite theme](https://github.com/spaceship-prompt/spaceship-prompt) as well as some useful plugins.
 * Makes sure iterm2 loads and saves it's settings from and to this dotfile repo.
 * NVM ready for action.

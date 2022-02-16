@@ -18,11 +18,10 @@ brew upgrade
 # Install packages if they are missing
 
 brew_install() {
-    echo "Installing $1"
-    if brew list $1 >/dev/null; then
-        echo "${1} is already installed"
+    if brew list $app >/dev/null; then
+        echo "${app} is already installed"
     else
-        brew install $1 && echo "$1 is installed"
+        brew install $app && echo "$app is installed"
     fi
 }
 
