@@ -717,8 +717,16 @@
 	<string>8BFCA22E-B69D-4206-89D4-CCC70F4F1CA9</string>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
+	<key>Hotkey</key>
+	<true/>
+	<key>HotkeyChar</key>
+	<integer>0</integer>
+	<key>HotkeyCode</key>
+	<integer>24</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>HotkeyModifiers</key>
+	<integer>1048840</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>

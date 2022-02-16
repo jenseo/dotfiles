@@ -13,7 +13,11 @@ This installation is the backbone of my setup and makes it easy to be up and run
 
 ## What it does in detail:
 * Creates symlinks from my home directory to my *.dotfiles*
-* Installs [Homebrew](https://brew.sh/) and the packages *grep* and *wget*
+* Installs [Homebrew](https://brew.sh/) and the packages:
+	* grep
+	* wget
+	* go 
+	* maccy
 * Installs the following applications as brew casks:
 	* firefox
 	* google-chrome
@@ -21,6 +25,7 @@ This installation is the backbone of my setup and makes it easy to be up and run
 	* visual-studio-code
 	* slack
 	* mockoon
+	* docker
 * Installs [Oh My Zsh](https://ohmyz.sh/), downloads [my favorite theme](https://github.com/spaceship-prompt/spaceship-prompt) as well as some useful plugins.
 * Makes sure iterm2 loads and saves it's settings from and to this dotfile repo.
 * NVM ready for action.

@@ -18,16 +18,18 @@ brew upgrade
 # Install packages if they are missing
 
 brew_install() {
-    if brew list $app >/dev/null; then
+    if brew ls --version $app &>/dev/null; then
         echo "${app} is already installed"
     else
-        brew install $app && echo "$app is installed"
+        echo "installing ${app}" && brew install $app && echo "${app} is installed"
     fi
 }
 
 apps=(
     grep
     wget
+    go
+    maccy
 )
 
 
