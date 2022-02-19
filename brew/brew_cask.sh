@@ -17,6 +17,7 @@ apps=(
     mockoon
     docker
     fig
+    postman
 )
 
 for app in "${apps[@]}"
