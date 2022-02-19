@@ -18,7 +18,7 @@ brew upgrade
 # Install packages if they are missing
 
 brew_install() {
-    if brew ls --version $app &>/dev/null; then
+    if brew ls --versions $app &>/dev/null; then
         echo "${app} is already installed"
     else
         echo "installing ${app}" && brew install $app && echo "${app} is installed"

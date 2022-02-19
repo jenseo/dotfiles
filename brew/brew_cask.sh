@@ -1,7 +1,7 @@
 # Install cask packages if they are missing
 
 brew_install_cask() {
-    if brew ls --casks --version $app &>/dev/null; then
+    if brew ls --cask --versions $app &>/dev/null; then
         echo "${app} is already installed"
     else
         echo "Installing ${app}" && brew install --cask $app && echo "${app} is installed"
