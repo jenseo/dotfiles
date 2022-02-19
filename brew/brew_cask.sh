@@ -16,6 +16,7 @@ apps=(
     slack
     mockoon
     docker
+    fig
 )
 
 for app in "${apps[@]}"
