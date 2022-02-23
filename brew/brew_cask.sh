@@ -18,6 +18,7 @@ apps=(
     docker
     fig
     postman
+    discord
 )
 
 for app in "${apps[@]}"
