@@ -19,6 +19,7 @@ apps=(
     fig
     postman
     discord
+    lastpass
 )
 
 for app in "${apps[@]}"
