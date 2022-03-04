@@ -18,7 +18,6 @@ apps=(
     docker
     fig
     postman
-    discord
     lastpass
 )
 
