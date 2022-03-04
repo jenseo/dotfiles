@@ -10,7 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="spaceship"
 
-plugins=(zsh-nvm git copydir dirhistory jsontools history zsh-autosuggestions bgnotify zsh-syntax-highlighting)
+plugins=(git copydir dirhistory jsontools history zsh-autosuggestions bgnotify zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 

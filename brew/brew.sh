@@ -30,6 +30,7 @@ apps=(
     wget
     go
     maccy
+    nvm
 )
 
 

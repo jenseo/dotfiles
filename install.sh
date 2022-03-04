@@ -51,12 +51,6 @@ clone_zsh_packages () {
     else
         echo "zsh-syntax-highlighting already installed"
     fi
-
-    if [ ! -d ~/.oh-my-zsh/custom/plugins/zsh-nvm ]; then
-        git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
-    else
-        echo "zsh-nvm already installed"
-    fi
 }
 
 setup_iterm_2 () {
