@@ -7,7 +7,5 @@
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
-[rebase]
-	autoStash = true
-[fetch]
-	prune = false
+[url "git@github.com:"]
+	insteadOf = https://github.com/

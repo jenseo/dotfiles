@@ -31,6 +31,7 @@ apps=(
     go
     maccy
     nvm
+    gh
 )
 
 

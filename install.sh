@@ -9,6 +9,7 @@ DOTFILES_DIR=~/dotfiles # dotfiles directory
 ln -sfv "$DOTFILES_DIR/zsh/.zshrc" ~
 ln -sfv "$DOTFILES_DIR/git/.gitconfig" ~
 ln -sfv "$DOTFILES_DIR/git/.gitignore_global" ~
+ln -sfv "$DOTFILES_DIR/git/.git_aliases.sh" ~
 ln -sfv "$DOTFILES_DIR/hush-terminal/.hushlogin" ~
 
 
