@@ -12,3 +12,4 @@ function git_main_branch() {
 }
 
 alias grom='git fetch origin && git rebase --autostash origin/$(git_main_branch)'
+alias gcmain='git checkout $(git_main_branch)'
